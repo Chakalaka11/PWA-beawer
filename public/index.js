@@ -7,6 +7,12 @@ window.addEventListener('beforeinstallprompt', (e) => {
   console.log(`'beforeinstallprompt' event was fired.`);
 });
 
+function showPrompt()
+{
+  deferredPrompt.prompt();
+}
+
+
 // Service Worker registration
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register("./serviceWorker.js")
