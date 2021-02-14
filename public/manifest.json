@@ -1,0 +1,27 @@
+{
+    "name": "RoadSync",
+    "short_name": "RoadSync",
+    "description": "RoadSync helps truck drivers and services to pay fee and invoices easily.",
+    "start_url": "./",
+    "display": "fullscreen",
+    "theme_color": "#000000",
+    "background_color": "#f8ce36",
+    "icons": [
+      {
+        "src": "assets/apple-icon-180x180.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/apple-icon-120x120.png",
+        "sizes": "120x120",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/apple-icon-76x76.png",
+        "sizes": "76x76",
+        "type": "image/png"
+      }
+    ]
+  }
+  
