@@ -4,6 +4,16 @@ window.addEventListener('beforeinstallprompt', (e) => {
   e.preventDefault();
   deferredPrompt = e;
   console.log(deferredPrompt);
+  console.log(deferredPrompt.userChoice);
+  deferredPrompt.userChoice
+    .then((e)=>{
+      console.log("User choice then");
+      console.log(e);
+    })
+    .catch((e)=>{
+      console.log("User choice catch");
+      console.log(e);
+    })
   console.log(`'beforeinstallprompt' event was fired.`);
 });
 

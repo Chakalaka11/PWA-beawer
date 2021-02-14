@@ -2,3 +2,12 @@
     padding: 10px 20px;
     background: #fff;
 }
+.header-label
+{
+    text-align: center;
+}
+.install-btn-container
+{
+    display: flex;
+    justify-content: center;
+}
